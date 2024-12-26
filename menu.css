@@ -1,4 +1,5 @@
 /* General Styles */
+/*
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -49,7 +50,7 @@ body {
     background-color: #e68a00;
   }
   
-  /* Responsive Design */
+  
   @media (max-width: 768px) {
     .navbar {
       flex-direction: column;
@@ -69,7 +70,21 @@ body {
   
     .nav-button {
       margin-top: 1em;
-      width: 90%; /* Optional: make button wider for smaller screens */
+      width: 90%; 
     }
   }
+  */
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+
+  
   
